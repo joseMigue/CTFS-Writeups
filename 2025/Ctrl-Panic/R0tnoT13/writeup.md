@@ -11,7 +11,7 @@ Por un error de logging, se filtran varios de estos valores, junto con:
 
 El objetivo es **reconstruir `S` y recuperar el mensaje cifrado**.
 
-![imagen1](https://github.com/user-attachments/assets/7c7cd9fd-a717-4430-a7ef-36e9d1d9d899)
+![imagen1](estados.png)
 
 ---
 
@@ -33,13 +33,13 @@ El script usa **Z3** para:
 
 Una vez que el solver encuentra un **modelo consistente**, el script reconstruye `S` completo y lo imprime en **hexadecimal**.
 
-![imagen2](https://github.com/user-attachments/assets/66f81e3e-f9d5-4061-8a84-ded1f5e0248f)
+![imagen2](estadoHex.png)
 
 ---
 
-## Descifrado del mensaje (`crypt.py`)
+## Descifrado del mensaje (`solveRot_Crypt.py`)
 
-Luego el script `crypt.py` toma el **estado interno `S` ya recuperado** y lo usa para descifrar el `ciphertext` provisto por el challenge.
+Luego el script `solveRot_Crypt.py` toma el **estado interno `S` ya recuperado** y lo usa para descifrar el `ciphertext` provisto por el challenge.
 
 En este caso, el cifrado es simple: el estado actúa directamente como **keystream**, por lo que descifrar consiste en hacer un **XOR** entre el ciphertext y los bytes de `S`.
 
@@ -49,4 +49,4 @@ El script:
 2. Hace el **XOR byte a byte** con el ciphertext.
 3. Muestra el **mensaje descifrado**.
 
-![imagen3](https://github.com/user-attachments/assets/d919b91d-f2df-460d-850e-10de6ff3009f)
+![imagen3](flag.png)
