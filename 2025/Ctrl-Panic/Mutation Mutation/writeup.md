@@ -2,7 +2,7 @@
 
 Al abrir el link se observa la siguiente página, donde no sucede nada al apretar **F12** o hacer **click derecho** para poder inspeccionar.
 
-![imagen5](https://github.com/user-attachments/assets/8cd589ff-837e-4538-ab01-140267aa8b2c)
+![imagen5](reto.png)
 
 Para poder inspeccionar fue necesario hacer:
 
@@ -56,7 +56,7 @@ Esto indicaba que:
 - el autor había implementado lógica para **detectar ejecución directa**, o  
 - el **flag real estaba fragmentado** dentro del código.
 
-![imagen6](https://github.com/user-attachments/assets/784b936c-e2cd-4f63-b315-4a9d80d48ec2)
+![imagen6](flagFalsa.png)
 
 ---
 
@@ -84,4 +84,4 @@ lactf{
 
 Esto permitió localizar rápidamente los posibles candidatos al **flag real**.
 
-![imagen7](https://github.com/user-attachments/assets/2bdbfd3d-d332-4d83-a5f3-c0a75efa8e3f)
+![imagen7](flagReal.png)

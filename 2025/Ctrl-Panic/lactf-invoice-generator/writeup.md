@@ -2,7 +2,7 @@
 
 El reto nos presenta una **aplicación web que genera facturas en formato PDF**.
 
-![imagen8](https://github.com/user-attachments/assets/6e2a83e5-4bdf-4656-aca2-cc7433441425)
+![imagen8](form.png)
 
 ---
 
@@ -52,7 +52,7 @@ http://flag:8081
 
 y **no es accesible desde el exterior**, pero **sí es visible desde otros contenedores dentro de la red de Docker**, incluyendo el servidor que genera las facturas.
 
-![imagen9](https://github.com/user-attachments/assets/5af35535-830a-4b7e-a3a6-9902b4619ca0)
+![imagen9](factura.png)
 
 ---
 
@@ -107,4 +107,4 @@ De esta manera, el **flag aparece directamente en el PDF descargado**.
 
 ---
 
-![imagen10](https://github.com/user-attachments/assets/66ee0c6f-e6cb-4872-9075-e9b0dfaf72fa)
+![imagen10](flag.png)

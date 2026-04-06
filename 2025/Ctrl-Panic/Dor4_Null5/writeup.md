@@ -131,5 +131,5 @@ Esta respuesta se envía al servidor y permite autenticarse como **Administrator
 
 ---
 
-![imagen4](https://github.com/user-attachments/assets/f2b1f912-7a21-436f-aaed-d1493b402377)
+![imagen4](flag.png)
 
