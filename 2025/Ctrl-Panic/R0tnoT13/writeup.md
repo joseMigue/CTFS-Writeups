@@ -37,9 +37,9 @@ Una vez que el solver encuentra un **modelo consistente**, el script reconstruye
 
 ---
 
-## Descifrado del mensaje (`solveRot_Crypt.py`)
+## Descifrado del mensaje (`solve.py`)
 
-Luego el script `solveRot_Crypt.py` toma el **estado interno `S` ya recuperado** y lo usa para descifrar el `ciphertext` provisto por el challenge.
+Luego el script `solve.py` toma el **estado interno `S` ya recuperado** y lo usa para descifrar el `ciphertext` provisto por el challenge.
 
 En este caso, el cifrado es simple: el estado actúa directamente como **keystream**, por lo que descifrar consiste en hacer un **XOR** entre el ciphertext y los bytes de `S`.
 
