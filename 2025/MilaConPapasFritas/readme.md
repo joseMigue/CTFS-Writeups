@@ -1,6 +1,6 @@
 # TeamMilaConPapasFritas
 ## Integrantes
-### Aguilar Jose  
+### Aguilar Jose  10428/4
 ### Delgado Daniela 15005/5
 ## Los writeups corresponden a los siguientes retos:
 
