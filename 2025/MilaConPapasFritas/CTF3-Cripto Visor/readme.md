@@ -11,5 +11,6 @@
 ### Como vemos todavía no obtenemos la flag , pero si otra pista: el segundo mensaje también está cifrado en algún tipo de rot. 
 ### Si aplicamos rot13 sobre el texto anterior 
 <img width="1083" height="495" alt="rot13" src="https://github.com/user-attachments/assets/441b0beb-1edc-400f-afe6-dff76e6a5f28" />
-Finalmente obtenemos la flag : jctf{4cbdcC0Dc=FEbd0J_F}
+
+### Finalmente obtenemos la flag : jctf{4cbdcC0Dc=FEbd0J_F}
 
