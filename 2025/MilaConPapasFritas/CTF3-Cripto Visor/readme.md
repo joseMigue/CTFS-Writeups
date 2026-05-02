@@ -13,4 +13,4 @@
 <img width="1083" height="495" alt="rot13" src="https://github.com/user-attachments/assets/441b0beb-1edc-400f-afe6-dff76e6a5f28" />
 
 ### Finalmente obtenemos la flag : jctf{4cbdcC0Dc=FEbd0J_F}
-
+### Ejecutando el script solve.py se obtiene la flag de manera automatica.
